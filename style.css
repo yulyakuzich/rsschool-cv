@@ -21,6 +21,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
@@ -175,6 +178,7 @@ a {
 
 .projects-items {
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .code-exemple {
 	height: 300px;
@@ -182,6 +186,7 @@ a {
 }
 .projects-item {
 	width: 30%;
+	margin-bottom: 20px;
 }
 .projects-item img{
 	width: 100%;
