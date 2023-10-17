@@ -35,9 +35,6 @@
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#code">Code</a>
-            </li>
-            <li>
               <a href="#projects">Projects</a>
             </li>
           </ul>
@@ -143,12 +140,41 @@
               <h2 id="about">About me</h2>
               <div class="divider"></div>
               <p>
-                My goal is to become a cool front-end developer and get a good
-                job. My strengths include responsibility, perseverance,
-                purposefulness and efficiency. At the moment I havn't work
-                experience in the IT sphere, but I really want to get it.
-                Previously I worked as a logistics manager, but I always want to
-                develop and explore new areas.
+                I am a beginner Front-End Developer with a background in
+                logistics. I hold a Bachelor's degree in Logistics and
+                Economics, as well as a Master’s degree in World Economics. My
+                journey into the world of IT began when I made the exciting
+                decision to change my career path.
+              </p>
+              <p>
+                Recently, I completed The Rolling Scope School’s rigorous
+                courses, including JS/FE Pre-School 2022Q4 and
+                JavaScript/Front-end 2023Q1, earning certificates that represent
+                my dedication and hard work. These courses have equipped me with
+                a strong foundation in HTML, CSS, Git, JavaScript, and
+                TypeScript. I've gained invaluable practical experience through
+                various educational tasks, such as developing websites, creating
+                REST API applications, and designing an Ecommerce application.
+                While I haven't completed my educational journey yet, I am
+                currently enrolled in the JavaScript: The Advanced Concepts
+                course and am eager to embark on The React Course.
+              </p>
+              <p>
+                What sets me apart is my unwavering commitment to personal and
+                professional growth. I am passionate about learning and staying
+                updated with the latest trends in front-end development. I'm
+                more than willing to work for the invaluable experience that a
+                real-world position can offer, making me a motivated and
+                adaptable candidate.
+              </p>
+              <p>
+                I am genuinely enthusiastic about pursuing a career as a
+                Front-End Developer, and I am confident that my background and
+                burgeoning skills in IT make me a valuable asset to any team. I
+                am ready to seize any opportunity to prove myself and contribute
+                to your organization's success. I hope you consider giving me
+                the chance to demonstrate my dedication and passion for this
+                field.
               </p>
             </div>
             <div class="cv-card style-radius-2 style-color-2">
@@ -237,58 +263,7 @@
                 </div>
               </div>
             </div>
-            <div class="cv-card style-radius-1 style-color-1 code-example">
-              <h2 id="code">Code</h2>
-              <div class="divider"></div>
-              <p>
-                This is exemple of code, I have implemented in one of my
-                projects:
-              </p>
-              <div class="code-exemple">
-                <pre>
-                <code>
-  //switcher
-  function imageSwitcher(event) {
-    let currentImageURL = viewerImg.getAttribute("src");
 
-    if (currentImageURL) {
-      let urlArray = Array.prototype.slice
-        .call(images)
-        .map((imageElement) =&gt; imageElement.attributes.src.value);
-
-      let currentImageIndex = urlArray.findIndex((el) =&gt; el == currentImageURL);
-
-      function goRight() {
-        if (currentImageIndex + 1 == urlArray.length) {
-          viewerImg.setAttribute("src", urlArray[0]);
-        } else {
-          viewerImg.setAttribute("src", urlArray[currentImageIndex + 1]);
-        }
-      }
-
-      function goLeft() {
-        if (currentImageIndex == 0) {
-          viewerImg.setAttribute("src", urlArray[urlArray.length - 1]);
-        } else {
-          viewerImg.setAttribute("src", urlArray[currentImageIndex - 1]);
-        }
-      }
-      if (event.code == "ArrowRight") {
-        goRight();
-      }
-      if (event.code == "ArrowLeft") {
-        goLeft();
-      }
-      if (event.code == "Escape") {
-        closeImage();
-      }
-    }
-  }
-  document.addEventListener("keydown", imageSwitcher);
-                </code>
-              </pre>
-              </div>
-            </div>
             <div class="cv-card style-radius-2 style-color-3">
               <h2 id="projects">Projects</h2>
               <div class="divider"></div>
